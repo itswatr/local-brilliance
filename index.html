@@ -3,22 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+    <title>Maple & Oak Coffee — Neighborhood Café in Springfield</title>
+    <meta name="description" content="Maple & Oak Coffee is a local café in Springfield serving small-batch coffee, fresh pastries, and seasonal lunch. Order online, reserve a table, or stop in." />
+    <link rel="canonical" href="/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <meta property="og:title" content="Maple & Oak Coffee — Neighborhood Café" />
+    <meta property="og:description" content="Small-batch coffee, fresh pastries, and seasonal lunch in Springfield." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "Maple & Oak Coffee",
+        "image": "/og.jpg",
+        "telephone": "+1-555-123-4567",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Main Street",
+          "addressLocality": "Springfield",
+          "addressRegion": "IL",
+          "postalCode": "62701",
+          "addressCountry": "US"
+        },
+        "priceRange": "$",
+        "openingHours": ["Mo-Fr 07:00-18:00", "Sa-Su 08:00-16:00"]
+      }
+    </script>
   </head>
-
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
